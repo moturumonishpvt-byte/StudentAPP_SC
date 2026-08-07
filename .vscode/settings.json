@@ -1,0 +1,26 @@
+{
+  "java.project.resourceFilters": [
+    "node_modules",
+    "ios",
+    ".gemini"
+  ],
+  "java.import.exclusions": [
+    "**/node_modules/**",
+    "**/ios/**",
+    "**/.gemini/**"
+  ],
+  "java.import.project.importExclusions": [
+    "**/node_modules/**",
+    "**/ios/**",
+    "**/.gemini/**"
+  ],
+  "java.autobuild.enabled": false,
+  "java.configuration.updateBuildConfiguration": "disabled",
+  "files.exclude": {
+    "**/.settings": true,
+    "**/.project": true,
+    "**/.classpath": true,
+    "**/node_modules/**": true
+  },
+  "java.compile.nullAnalysis.mode": "automatic"
+}

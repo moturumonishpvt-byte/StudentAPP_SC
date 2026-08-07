@@ -1,0 +1,12 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react-native",
+    "module": "esnext",
+    "noEmit": true,
+    "strict": false,
+    "moduleResolution": "bundler"
+  },
+  "include": ["src/**/*", "App.js", "index.js"],
+  "exclude": ["node_modules", "android", "ios", "babel.config.js"]
+}

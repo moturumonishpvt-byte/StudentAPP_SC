@@ -1,0 +1,22 @@
+node_modules/
+.expo/
+npm-debug.log
+yarn-error.log
+*.log
+
+# Android
+android/.gradle
+android/build
+android/app/build
+android/app/src/main/assets
+
+# iOS
+ios/build/
+ios/Pods/
+ios/*.xcworkspace/xcuserdata
+
+.env
+*.hprof
+
+*.apk
+

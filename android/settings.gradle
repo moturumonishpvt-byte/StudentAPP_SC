@@ -1,0 +1,14 @@
+rootProject.name = 'am-student-app'
+
+// Expo Modules Autolinking
+apply from: new File(["node", "--print", "require.resolve('expo/package.json')"].execute(null, rootDir).text.trim(), "../scripts/autolinking.gradle");
+useExpoModules()
+
+// React Native CLI Autolinking
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+
+include ':app'
+
+// Standard includeBuild for RN 0.73 Gradle Plugin
+includeBuild('../node_modules/@react-native/gradle-plugin')
+
